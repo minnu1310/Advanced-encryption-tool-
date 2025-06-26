@@ -63,8 +63,9 @@ python main.py
 
 > You can manually rename `.dec` files back to the original extension if needed.
 
-## Notes
-- Password is required for both encryption and decryption.
-- Use the same password to decrypt — there's no password recovery.
-- Each encryption uses random salt and IV, enhancing security.
-- Fully offline and secure — no data is sent anywhere.
+### OUTPUT
+![Image](https://github.com/user-attachments/assets/65e0c32b-bef8-4039-93ed-aacce9038818)
+
+![Image](https://github.com/user-attachments/assets/f5b1f51c-1343-4c9b-bc25-2505ad99c4a3)
+
+![Image](https://github.com/user-attachments/assets/91507e55-b091-40e3-b0f7-1ffc9c7002b2)
