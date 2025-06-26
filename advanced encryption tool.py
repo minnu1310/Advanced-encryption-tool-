@@ -3,7 +3,7 @@ from tkinter import filedialog, messagebox
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-from cryptography.hazmat.primitives import hashes  # ✅ Correct hash import
+from cryptography.hazmat.primitives import hashes  #  Correct hash import
 import base64
 import os
 import secrets
@@ -15,7 +15,7 @@ def derive_key(password: str, salt: bytes) -> bytes:
     Derive a 256-bit key from password using PBKDF2 with SHA256.
     """
     kdf = PBKDF2HMAC(
-        algorithm=hashes.SHA256(),  # ✅ FIXED
+        algorithm=hashes.SHA256(),  #  FIXED
         length=32,
         salt=salt,
         iterations=100000,
